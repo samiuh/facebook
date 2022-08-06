@@ -1,0 +1,19 @@
+.left {
+    // height: 510px;
+    // width: 320px;
+    height: 100%;
+    width: 25%;
+    flex-direction: column;
+    justify-content: flex-start;
+    margin-top: 80px;
+
+    .row {
+        margin-bottom: 18px;
+        padding-left: 22px;
+        display: flex;
+        align-items: center;
+        div {
+            padding-left: 20px;
+        }
+    }
+}

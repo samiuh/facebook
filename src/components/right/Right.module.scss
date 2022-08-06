@@ -1,0 +1,119 @@
+.right {
+    // height: 510px;
+    // width: 300px;
+    height: 100%;
+    width: 22%;
+    margin-top: 60px;
+    .header {
+        flex-direction: column;
+        align-items: flex-start;
+        .friendrequest {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            div:last-child {
+                padding: 5px;
+                cursor: pointer;
+                color: #2374e1;
+                &:hover {
+                    background-color: rgba($color: #000000, $alpha: 0.4);
+                }
+            }
+        }
+        .colum {
+            padding-left: 12px;
+            display: flex;
+            margin-top: 10px;
+            cursor: pointer;
+            &:hover {
+                background-color: rgba($color: #000000, $alpha: 0.4);
+                border-radius: 12px;
+            }
+            img {
+                width: 40px;
+                height: 40px;
+                border-radius: 50%;
+                object-fit: cover;
+            }
+            div {
+                .btn {
+                    button {
+                        padding: 10px;
+                        border: none;
+                        color: #fff;
+                        border-radius: 10px;
+                    }
+                    button:first-child {
+                        margin-right: 12px;
+                        background-color: #2374e1;
+                    }
+                    button:last-child {
+                        background-color: #303031;
+                    }
+                }
+                padding-left: 12px;
+            }
+        }
+    }
+    .center {
+        flex-direction: column;
+        align-items: flex-start;
+        .birthday {
+            display: flex;
+            align-items: center;
+        }
+        .gift {
+            display: flex;
+            align-items: center;
+            padding: 5px;
+            cursor: pointer;
+            &:hover {
+                background-color: rgba($color: #000000, $alpha: 0.4);
+                border-radius: 12px;
+            }
+            img {
+                width: 30px;
+                height: 30px;
+                background-color: #f5fcff;
+            }
+            div {
+                padding-left: 15px;
+            }
+        }
+    }
+    .final {
+        flex-direction: column;
+        align-items: center;
+        justify-content: flex-start;
+        .contact {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            .add {
+                display: flex;
+                align-items: center;
+                justify-content: flex-end;
+                svg {
+                    margin: 0 20px;
+                }
+            }
+        }
+        .row {
+            display: flex;
+            align-items: center;
+            img {
+                height: 40px;
+                width: 40px;
+                border-radius: 50%;
+                object-fit: cover;
+                display: flex;
+                align-items: center;
+                margin-top: 15px;
+                margin-bottom: 15px;
+            }
+            div {
+                padding-left: 20px;
+            }
+        }
+    }
+}

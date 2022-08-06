@@ -1,0 +1,104 @@
+.live {
+    height: 210px;
+    width: 80%;
+    // align-items: flex-start;
+    // flex-direction: column;
+    background-color: #ffffff;
+    border-radius: 10px;
+    margin-top: 12px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    .call {
+        width: 40%;
+        height: 180px;
+        margin-left: 10px;
+        margin-top: 6px;
+        border: 2px solid #ced0d4;
+        border-radius: 12px;
+        &:hover {
+            background-color: rgba($color: #ebedf0, $alpha: 0.4);
+        }
+        .call1 {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            position: relative;
+            flex-direction: column;
+            svg {
+                position: absolute;
+                top: 10px;
+                border: 2px solid #fff;
+                background: #fff;
+                width: 35px;
+                height: 35px;
+                border-radius: 50%;
+            }
+        }
+        .room {
+            margin-top: 55px;
+            margin-bottom: -50px;
+            padding-left: 50px;
+            align-items: center;
+        }
+        .btn {
+            padding-left: 12px;
+            button {
+                border: none;
+                color: #3a7fdf;
+                border-radius: 10px;
+                padding: 12px 55px;
+                margin-top: 55px;
+                background-color: #fff;
+                border: 2px solid #e7f3ff;
+                cursor: pointer;
+            }
+        }
+    }
+    .say {
+        width: 40%;
+        height: 180px;
+        margin-left: 10px;
+        margin-top: 6px;
+        border: 2px solid #ced0d4;
+        border-radius: 12px;
+        &:hover {
+            background-color: rgba($color: #ebedf0, $alpha: 0.4);
+        }
+        .say1 {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            position: relative;
+            flex-direction: column;
+            img {
+                position: absolute;
+                top: 10px;
+                border: 2px solid #fff;
+                background: #fff;
+                width: 35px;
+                height: 35px;
+                border-radius: 50%;
+            }
+        }
+        .room1 {
+            margin-top: 55px;
+            margin-bottom: -50px;
+            padding-left: 50px;
+            align-items: center;
+        }
+        .btn1 {
+            padding-left: 12px;
+            button {
+                border: none;
+                color: #3a7fdf;
+                border-radius: 10px;
+                padding: 12px 55px;
+                margin-top: 75px;
+                background-color: #fff;
+                border: 2px solid #e7f3ff;
+                cursor: pointer;
+            }
+        }
+    }
+}
